@@ -1,0 +1,13 @@
+node_modules
+dist/
+.mcp-index/
+**/.mcp-index/
+
+logs/
+weights.json
+data/
+packages/mcp-server/data/
+tests/sample_src/data/
+storage/
+telemetry.json
+

@@ -1,0 +1,11 @@
+{
+  "clients": {
+    "rag_mcp_http": {
+      "transport": {
+        "type": "http",
+        "url": "http://127.0.0.1:7450/mcp"
+      }
+    }
+  }
+}
+
