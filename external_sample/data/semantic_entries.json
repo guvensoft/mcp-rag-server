@@ -1,0 +1,10 @@
+[
+  {
+    "id": "C:/Users/Vipac/Desktop/final_project/external_sample/src/hello.ts:hello",
+    "file": "hello.ts",
+    "symbol": "hello",
+    "startLine": 1,
+    "endLine": 3,
+    "text": "export function hello(name: string) {\n  return `Hello, ${name}!`;\n}"
+  }
+]

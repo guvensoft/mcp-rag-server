@@ -1,0 +1,2 @@
+rootDir=C:\Users\Vipac\Desktop\final_project\packages\mcp-server\src
+firstFile=C:/Users/Vipac/Desktop/final_project/packages/mcp-server/src/cache.ts

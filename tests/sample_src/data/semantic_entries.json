@@ -1,0 +1,26 @@
+[
+  {
+    "id": "orders/order.service.ts:OrderService",
+    "file": "orders/order.service.ts",
+    "symbol": "OrderService",
+    "startLine": 1,
+    "endLine": 13,
+    "text": "export class OrderService {\n  /**\n   * Create a new order with the given items.\n   */\n  createOrder(items: string[]): number {\n    // compute total\n    let total = 0;\n    for (const item of items) {\n      total += item.length;\n    }\n    return total;\n  }\n}"
+  },
+  {
+    "id": "orders/order.service.ts:OrderService.createOrder",
+    "file": "orders/order.service.ts",
+    "symbol": "OrderService.createOrder",
+    "startLine": 2,
+    "endLine": 12,
+    "text": "  /**\n   * Create a new order with the given items.\n   */\n  createOrder(items: string[]): number {\n    // compute total\n    let total = 0;\n    for (const item of items) {\n      total += item.length;\n    }\n    return total;\n  }"
+  },
+  {
+    "id": "utils/math.ts:add",
+    "file": "utils/math.ts",
+    "symbol": "add",
+    "startLine": 1,
+    "endLine": 3,
+    "text": "export function add(a: number, b: number): number {\n  return a + b;\n}"
+  }
+]

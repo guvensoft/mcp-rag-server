@@ -1,0 +1,15 @@
+[
+  {
+    "path": "hello.ts",
+    "content": "export function hello(name: string) {\n  return `Hello, ${name}!`;\n}\n\n",
+    "symbols": [
+      {
+        "name": "hello",
+        "kind": "function",
+        "file": "C:/Users/Vipac/Desktop/final_project/external_sample/src/hello.ts",
+        "startLine": 1,
+        "endLine": 3
+      }
+    ]
+  }
+]

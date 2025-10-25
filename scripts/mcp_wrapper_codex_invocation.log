@@ -1,0 +1,496 @@
+[2025-10-22T08:20:21.601Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:20:21.603Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--log-only","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:20:21.603Z] cwd=C:\Users\Vipac\Desktop\final_project\scripts
+[2025-10-22T08:20:21.604Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:20:21.604Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpoSFypo;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T08:20:21.605Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:20:21.605Z] --log-only, exiting without spawning target
+[2025-10-22T08:21:55.377Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:21:55.379Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:21:55.380Z] cwd=C:\Users\Vipac\Desktop\final_project\scripts
+[2025-10-22T08:21:55.380Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:21:55.381Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpv6Uzuk;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T08:21:55.381Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:21:55.381Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T08:21:55.389Z] child pid=1316
+[2025-10-22T08:21:55.433Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T08:21:55.434Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T08:26:54.477Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:26:54.479Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\\\.context7\\\\mcp\\\\bin\\\\mcp.js"]
+[2025-10-22T08:26:54.479Z] cwd=C:\Users\Vipac\Desktop\final_project\scripts
+[2025-10-22T08:26:54.480Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:26:54.480Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpcyoCn3;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T08:26:54.480Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\\\.context7\\\\mcp\\\\bin\\\\mcp.js"]
+[2025-10-22T08:26:54.481Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\\\.context7\\\\mcp\\\\bin\\\\mcp.js"]}
+[2025-10-22T08:26:54.489Z] child pid=14848
+[2025-10-22T08:26:54.532Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T08:26:54.533Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T08:30:22.336Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:30:22.337Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:30:22.337Z] cwd=C:\Users\Vipac\Desktop\final_project\scripts
+[2025-10-22T08:30:22.338Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:30:22.338Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpT8iW6h;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T08:30:22.338Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:30:22.339Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T08:30:22.347Z] child pid=9488
+[2025-10-22T08:30:22.400Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T08:30:22.401Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T08:35:34.614Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:35:34.616Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:35:34.616Z] cwd=C:\Users\Vipac\Desktop\final_project
+[2025-10-22T08:35:34.616Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:35:34.616Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpFQXG8q;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5;C:\Users\Vipac\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Windows\System32
+[2025-10-22T08:35:34.617Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:35:34.617Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T08:35:34.623Z] child pid=6172
+[2025-10-22T08:35:34.660Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T08:35:34.662Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T08:44:46.393Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:44:46.395Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:44:46.395Z] cwd=C:\Users\Vipac\Desktop\final_project
+[2025-10-22T08:44:46.395Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:44:46.395Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpPfJf3k;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5;C:\Users\Vipac\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Windows\System32
+[2025-10-22T08:44:46.396Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:44:46.396Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T08:44:46.402Z] child pid=8336
+[2025-10-22T08:44:46.436Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T08:44:46.437Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T08:56:04.195Z] mcp_spawn_wrapper invoked
+[2025-10-22T08:56:04.197Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:56:04.197Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T08:56:04.198Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T08:56:04.198Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpDIfpob;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5;C:\Users\Vipac\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Windows\System32
+[2025-10-22T08:56:04.198Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T08:56:04.199Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T08:56:04.205Z] child pid=14720
+[2025-10-22T08:56:04.241Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T08:56:04.243Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T09:16:26.223Z] mcp_spawn_wrapper invoked
+[2025-10-22T09:16:26.225Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:16:26.225Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T09:16:26.225Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T09:16:26.226Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmps33QMo;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T09:16:26.226Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:16:26.226Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T09:16:26.232Z] child pid=8564
+[2025-10-22T09:16:26.270Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T09:16:26.272Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T09:19:34.331Z] mcp_spawn_wrapper invoked
+[2025-10-22T09:19:34.333Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:19:34.333Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T09:19:34.333Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T09:19:34.334Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpW2TXjT;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T09:19:34.334Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:19:34.334Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T09:19:34.340Z] child pid=15652
+[2025-10-22T09:19:34.377Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T09:19:34.378Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T09:20:17.287Z] mcp_spawn_wrapper invoked
+[2025-10-22T09:20:17.289Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:20:17.290Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T09:20:17.290Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T09:20:17.290Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpWh0wNA;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T09:20:17.290Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:20:17.291Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T09:20:17.297Z] child pid=4256
+[2025-10-22T09:20:17.340Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T09:20:17.341Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T09:50:15.410Z] mcp_spawn_wrapper invoked
+[2025-10-22T09:50:15.412Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:50:15.413Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T09:50:15.413Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T09:50:15.413Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpBxfhzr;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T09:50:15.414Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:50:15.414Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T09:50:15.420Z] child pid=7964
+[2025-10-22T09:50:15.459Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T09:50:15.461Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T09:52:44.806Z] mcp_spawn_wrapper invoked
+[2025-10-22T09:52:44.807Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:52:44.808Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T09:52:44.808Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T09:52:44.808Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpO78HIn;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T09:52:44.809Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T09:52:44.809Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T09:52:44.815Z] child pid=12532
+[2025-10-22T09:52:44.854Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T09:52:44.856Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T10:07:05.793Z] mcp_spawn_wrapper invoked
+[2025-10-22T10:07:05.795Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:07:05.795Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T10:07:05.795Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T10:07:05.796Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmp0cpRuc;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T10:07:05.796Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:07:05.797Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T10:07:05.808Z] child pid=3912
+[2025-10-22T10:07:05.856Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T10:07:05.858Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T10:07:41.353Z] mcp_spawn_wrapper invoked
+[2025-10-22T10:07:41.355Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:07:41.355Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T10:07:41.355Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T10:07:41.356Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpgJ8DML;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T10:07:41.356Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:07:41.357Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T10:07:41.367Z] child pid=5560
+[2025-10-22T10:07:41.406Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T10:07:41.407Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T10:08:52.510Z] mcp_spawn_wrapper invoked
+[2025-10-22T10:08:52.512Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:08:52.512Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T10:08:52.513Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T10:08:52.513Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmp9DgqVh;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T10:08:52.513Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:08:52.514Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T10:08:52.523Z] child pid=11544
+[2025-10-22T10:08:52.564Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T10:08:52.566Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T10:11:45.252Z] mcp_spawn_wrapper invoked
+[2025-10-22T10:11:45.254Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:11:45.254Z] cwd=C:\Users\Vipac\testing
+[2025-10-22T10:11:45.255Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T10:11:45.255Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpFqRjnG;C:\Users\Vipac\AppData\Roaming\nvm\v20.19.5\node_modules\@openai\codex\vendor\x86_64-pc-windows-msvc\path;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Vipac\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+[2025-10-22T10:11:45.256Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T10:11:45.256Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T10:11:45.270Z] child pid=17004
+[2025-10-22T10:11:45.316Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T10:11:55.231Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T17:40:36.553Z] mcp_spawn_wrapper invoked
+[2025-10-22T17:40:36.555Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T17:40:36.556Z] cwd=C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code
+[2025-10-22T17:40:36.556Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T17:40:36.558Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpI7BXzS;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;;c:\Users\Vipac\.vscode\extensions\openai.chatgpt-0.4.21-win32-x64\bin\windows-x86_64
+[2025-10-22T17:40:36.558Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T17:40:36.559Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T17:40:36.570Z] child pid=6172
+[2025-10-22T17:40:36.620Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T17:40:46.485Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
+[2025-10-22T17:41:13.554Z] mcp_spawn_wrapper invoked
+[2025-10-22T17:41:13.556Z] process.argv=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_spawn_wrapper.cjs","--out","C:\\Users\\Vipac\\Desktop\\final_project\\scripts\\mcp_wrapper_codex_invocation.log","--","C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T17:41:13.557Z] cwd=C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code
+[2025-10-22T17:41:13.557Z] env keys=["PATH","PATHEXT","TEMP","TMP","USERDOMAIN","USERNAME","USERPROFILE"]
+[2025-10-22T17:41:13.557Z] PATH=C:\Users\Vipac\AppData\Local\Temp\.tmpPUCTHS;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Roaming\nvm\v12.22.12;C:\Program Files\dotnet;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php8.2.13;C:\composer;C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;C:\Users\Vipac\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Users\Vipac\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Windows\System32;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Memurai\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Vipac\.cargo\bin;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vipac\AppData\Local\Programs\Python\Python311\;C:\Users\Vipac\AppData\Local\Programs\Python\Launcher\;C:\Users\Vipac\AppData\Local\Programs\Ollama;
+C:\Program Files\Git\cmd;
+C:\Windows\System32\Wbem;
+C:\Program Files\dotnet;
+C:\wamp64\bin\php\php8.2.13;
+C:\composer;
+C:\ProgramData\chocolatey\bin;
+C:\Windows;
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;
+C:\WINDOWS\system32\WindowsPowerShell\v1.0;
+C:\Users\Vipac\AppData\Local\Microsoft\WindowsApps;
+C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;
+C:\Program Files (x86)\Nmap;
+C:\Users\Vipac\AppData\Roaming\Composer\vendor\bin;
+C:\Users\Vipac\.dotnet\tools;
+C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;
+C:\Users\Vipac\AppData\Roaming\nvm;
+C:\Program Files\nodejs;
+C:\Users\Vipac\AppData\Local\Android\Sdk\platform-tools;
+C:\Program Files\Git\bin;C:\Users\Vipac\.dotnet\tools;C:\Users\Vipac\AppData\Local\GitHubDesktop\bin;C:\Program Files\AdoptOpenJDK\jdk8u192-b12\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\Vipac\AppData\Local\Android\Sdk\emulator;C:\Windows\System32\OpenSSH\;C:\Users\Vipac\AppData\Local\Programs\Microsoft VS Code\bin;;c:\Users\Vipac\.vscode\extensions\openai.chatgpt-0.4.21-win32-x64\bin\windows-x86_64
+[2025-10-22T17:41:13.558Z] target=["C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]
+[2025-10-22T17:41:13.558Z] spawning child: {"command":"C:\\Users\\Vipac\\AppData\\Roaming\\nvm\\v20.19.5\\node.exe","args":["C:\\Users\\Vipac\\.context7\\mcp\\bin\\mcp.js"]}
+[2025-10-22T17:41:13.569Z] child pid=16588
+[2025-10-22T17:41:13.621Z] child.stdout {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{},"resources":{},"prompts":{}},"serverInfo":{"name":"context7-mcp","version":"1.0.0"}}}
+
+[2025-10-22T17:41:23.492Z] child.stdout {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"echo","description":"Echo tool","inputSchema":{"type":"object","properties":{"message":{"type":"string"}},"required":["message"]}}]}}
+
