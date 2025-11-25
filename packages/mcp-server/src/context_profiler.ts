@@ -46,22 +46,29 @@ const KEYWORDS: Array<{ intent: ContextIntent; words: RegExp[]; budget: number; 
   },
 ];
 
-export function profileContext(query: string, requestedTopK: number): ContextProfile {
+function clampBudget(budget: number, maxBudget?: number) {
+  if (!maxBudget || maxBudget <= 0) return budget;
+  return Math.min(budget, maxBudget);
+}
+
+export function profileContext(query: string, requestedTopK: number, maxBudget?: number): ContextProfile {
   const trimmed = query.trim();
   for (const candidate of KEYWORDS) {
     if (candidate.words.some(re => re.test(trimmed))) {
+      const tokenBudget = clampBudget(candidate.budget, maxBudget);
       return {
         intent: candidate.intent,
-        tokenBudget: candidate.budget,
+        tokenBudget,
         requestedTopK,
         effectiveTopK: Math.max(1, Math.min(candidate.topK, requestedTopK || candidate.topK)),
         notes: [candidate.note],
       };
     }
   }
+  const tokenBudget = clampBudget(600, maxBudget);
   return {
     intent: 'general',
-    tokenBudget: 600,
+    tokenBudget,
     requestedTopK,
     effectiveTopK: Math.max(1, Math.min(requestedTopK || 5, 5)),
     notes: ['General search; apply balanced context selection.'],

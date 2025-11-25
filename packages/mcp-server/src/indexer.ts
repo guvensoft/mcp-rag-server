@@ -4,6 +4,7 @@ import { Project, SyntaxKind } from 'ts-morph';
 import madge from 'madge';
 import { FileMeta, SymbolMeta, SemanticEntry } from '@mcp/shared';
 import Database from 'better-sqlite3';
+import { loadConfig } from './config';
 
 function writeSQLite(dbPath: string, files: FileMeta[], imports: Array<{ from: string; to: string }>) {
   // Ensure directory and file exist
@@ -111,7 +112,48 @@ function resolveTsConfig(): string | undefined {
   return undefined;
 }
 
+function chunkByTokens(
+  lines: string[],
+  startLine: number,
+  maxTokens: number,
+  overlapTokens: number,
+  charsPerToken: number,
+): Array<{ text: string; start: number; end: number }> {
+  const estimate = (s: string) => Math.max(1, Math.ceil(s.length / charsPerToken));
+  const out: Array<{ text: string; start: number; end: number }> = [];
+  let idx = 0;
+  while (idx < lines.length) {
+    let tokenSum = 0;
+    let end = idx;
+    while (end < lines.length && tokenSum + estimate(lines[end]) <= maxTokens) {
+      tokenSum += estimate(lines[end]);
+      end++;
+    }
+    if (end === idx) end = idx + 1; // ensure progress
+    const chunkLines = lines.slice(idx, end);
+    out.push({
+      text: chunkLines.join('\n'),
+      start: startLine + idx,
+      end: startLine + end - 1,
+    });
+    if (overlapTokens > 0) {
+      let overlap = 0;
+      let back = end;
+      while (back > idx && overlap < overlapTokens) {
+        back--;
+        overlap += estimate(lines[back]);
+      }
+      const nextIdx = back <= idx ? end : back;
+      idx = nextIdx;
+    } else {
+      idx = end;
+    }
+  }
+  return out;
+}
+
 export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: string) {
+  const cfg = loadConfig();
   const tsConfigPath = resolveTsConfig();
   let project: Project;
   try {
@@ -156,8 +198,24 @@ export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: s
     fileMetas.push(fm);
     const lines = content.split(/\r?\n/);
     for (const s of symbols) {
-      const snippet = lines.slice(s.startLine - 1, s.endLine).join('\n');
-      semanticEntries.push({ id: `${s.file}:${s.name}`, file: relativePath, symbol: s.name, startLine: s.startLine, endLine: s.endLine, text: snippet });
+      const snippetLines = lines.slice(s.startLine - 1, s.endLine);
+      const chunks = chunkByTokens(
+        snippetLines,
+        s.startLine,
+        cfg.chunking.chunkTokenLimit,
+        cfg.chunking.overlapTokens,
+        cfg.chunking.charsPerToken,
+      );
+      chunks.forEach((chunk, idx) => {
+        semanticEntries.push({
+          id: `${s.file}:${s.name}:chunk${idx + 1}`,
+          file: relativePath,
+          symbol: s.name,
+          startLine: chunk.start,
+          endLine: chunk.end,
+          text: chunk.text,
+        });
+      });
     }
   }
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });

@@ -1,0 +1,25 @@
+{
+  "chunking": {
+    "chunkTokenLimit": 256,
+    "windowTokenLimit": 1400,
+    "overlapTokens": 48,
+    "charsPerToken": 4
+  },
+  "ranking": {
+    "weights": {
+      "semantic": 0.45,
+      "lexical": 0.2,
+      "graph": 0.1,
+      "reranker": 0.25
+    },
+    "diversity": {
+      "enableMMR": true,
+      "lambda": 0.3
+    }
+  },
+  "reranker": {
+    "enabled": false,
+    "url": "http://localhost:8000",
+    "endpoint": "/rerank"
+  }
+}
