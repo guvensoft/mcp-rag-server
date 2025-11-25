@@ -4,6 +4,21 @@ import { Project, SyntaxKind } from 'ts-morph';
 import madge from 'madge';
 import { FileMeta, SymbolMeta, SemanticEntry } from '@mcp/shared';
 import Database from 'better-sqlite3';
+import { AnnStoreAdapter, AnnStoreConfig, buildTextEmbedding, loadAnnConfigFromEnv } from './ann_store';
+
+export type IndexingMode = 'incremental' | 'full';
+
+export interface MetadataFilter {
+  (entry: { metadata?: Record<string, string | number | boolean | null>; namespace?: string; tenant?: string }): boolean;
+}
+
+export interface IndexerOptions {
+  mode?: IndexingMode;
+  namespace?: string;
+  tenant?: string;
+  metadataFilter?: MetadataFilter;
+  annConfig?: AnnStoreConfig;
+}
 
 function writeSQLite(dbPath: string, files: FileMeta[], imports: Array<{ from: string; to: string }>) {
   // Ensure directory and file exist
@@ -111,7 +126,74 @@ function resolveTsConfig(): string | undefined {
   return undefined;
 }
 
-export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: string) {
+function buildMetadataFilterFromEnv(): MetadataFilter | undefined {
+  const raw = process.env.INDEX_METADATA_FILTER;
+  if (!raw) return undefined;
+  try {
+    const parsed = JSON.parse(raw) as Record<string, string | number | boolean | null>;
+    if (!parsed || typeof parsed !== 'object') return undefined;
+    return entry => {
+      const metadata = entry.metadata || {};
+      return Object.entries(parsed).every(([key, value]) => metadata[key] === value);
+    };
+  } catch {
+    return undefined;
+  }
+}
+
+function normalizeOptions(options?: IndexerOptions): Required<IndexerOptions> {
+  const modeEnv = (process.env.INDEX_MODE || '').toLowerCase();
+  const namespace = options?.namespace ?? process.env.INDEX_NAMESPACE ?? undefined;
+  const tenant = options?.tenant ?? process.env.INDEX_TENANT ?? undefined;
+  return {
+    mode: options?.mode ?? (modeEnv === 'incremental' ? 'incremental' : 'full'),
+    namespace,
+    tenant,
+    metadataFilter: options?.metadataFilter ?? buildMetadataFilterFromEnv(),
+    annConfig: options?.annConfig ?? loadAnnConfigFromEnv(),
+  };
+}
+
+function mergeMetadata(base?: Record<string, string | number | boolean | null>, updates?: Record<string, string | number | boolean | null>) {
+  return { ...(base || {}), ...(updates || {}) };
+}
+
+function updateEntriesFromPrevious(
+  previous: SemanticEntry[] | undefined,
+  fileMeta: FileMeta,
+): SemanticEntry[] {
+  if (!previous) return [];
+  return previous.map(entry => ({
+    ...entry,
+    namespace: fileMeta.namespace,
+    tenant: fileMeta.tenant,
+    metadata: mergeMetadata(entry.metadata, fileMeta.metadata),
+  }));
+}
+
+function createSemanticEntries(fileMeta: FileMeta): SemanticEntry[] {
+  const lines = fileMeta.content.split(/\r?\n/);
+  const entries: SemanticEntry[] = [];
+  for (const sym of fileMeta.symbols) {
+    const snippetLines = lines.slice(sym.startLine - 1, sym.endLine);
+    const text = snippetLines.join('\n');
+    entries.push({
+      id: `${fileMeta.path}:${sym.name}`,
+      file: fileMeta.path,
+      symbol: sym.name,
+      startLine: sym.startLine,
+      endLine: sym.endLine,
+      text,
+      namespace: fileMeta.namespace,
+      tenant: fileMeta.tenant,
+      metadata: { ...(fileMeta.metadata || {}), symbolKind: sym.kind },
+    });
+  }
+  return entries;
+}
+
+export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: string, options?: IndexerOptions) {
+  const resolvedOptions = normalizeOptions(options);
   const tsConfigPath = resolveTsConfig();
   let project: Project;
   try {
@@ -122,9 +204,34 @@ export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: s
     // Fall back to a minimal config that avoids reading any tsconfig
     project = new Project({ skipAddingFilesFromTsConfig: true });
   }
+
   const tsFiles = project.addSourceFilesAtPaths([path.join(rootDir, '**/*.ts'), '!' + path.join(rootDir, '**/*.d.ts')]);
   const fileMetas: FileMeta[] = [];
   const semanticEntries: SemanticEntry[] = [];
+
+  let previousFiles: FileMeta[] = [];
+  let previousEntries: SemanticEntry[] = [];
+  if (resolvedOptions.mode === 'incremental') {
+    try {
+      previousFiles = JSON.parse(fs.readFileSync(path.join(outDir, 'index.json'), 'utf8')) as FileMeta[];
+    } catch {
+      previousFiles = [];
+    }
+    try {
+      previousEntries = JSON.parse(fs.readFileSync(path.join(outDir, 'semantic_entries.json'), 'utf8')) as SemanticEntry[];
+    } catch {
+      previousEntries = [];
+    }
+  }
+
+  const prevFileMap = new Map(previousFiles.map(f => [f.path, f]));
+  const prevEntryMap = new Map<string, SemanticEntry[]>();
+  for (const entry of previousEntries) {
+    const list = prevEntryMap.get(entry.file) || [];
+    list.push(entry);
+    prevEntryMap.set(entry.file, list);
+  }
+
   for (const sf of tsFiles) {
     const fullPath = sf.getFilePath();
     const content = sf.getFullText();
@@ -151,15 +258,36 @@ export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: s
         }
       }
     });
+
     const relativePath = path.relative(rootDir, fullPath).replace(/\\/g, '/');
-    const fm: FileMeta = { path: relativePath, content, symbols };
-    fileMetas.push(fm);
-    const lines = content.split(/\r?\n/);
-    for (const s of symbols) {
-      const snippet = lines.slice(s.startLine - 1, s.endLine).join('\n');
-      semanticEntries.push({ id: `${s.file}:${s.name}`, file: relativePath, symbol: s.name, startLine: s.startLine, endLine: s.endLine, text: snippet });
+    const stat = fs.statSync(fullPath);
+    const metadata = mergeMetadata({ language: 'typescript', path: relativePath }, {});
+    const fileMeta: FileMeta = {
+      path: relativePath,
+      content,
+      symbols,
+      namespace: resolvedOptions.namespace,
+      tenant: resolvedOptions.tenant,
+      metadata,
+      mtimeMs: stat.mtimeMs,
+    };
+
+    if (resolvedOptions.metadataFilter && !resolvedOptions.metadataFilter(fileMeta)) continue;
+
+    const previous = prevFileMap.get(relativePath);
+    const reusePrevious = resolvedOptions.mode === 'incremental' && previous?.mtimeMs === stat.mtimeMs;
+    if (reusePrevious) {
+      const inheritedEntries = updateEntriesFromPrevious(prevEntryMap.get(relativePath), fileMeta);
+      fileMetas.push({ ...previous, ...fileMeta });
+      semanticEntries.push(...inheritedEntries);
+      continue;
     }
+
+    fileMetas.push(fileMeta);
+    const entries = createSemanticEntries(fileMeta);
+    semanticEntries.push(...entries);
   }
+
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, 'index.json'), JSON.stringify(fileMetas, null, 2), 'utf8');
   fs.writeFileSync(path.join(outDir, 'semantic_entries.json'), JSON.stringify(semanticEntries, null, 2), 'utf8');
@@ -170,7 +298,7 @@ export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: s
     const result = await madge(rootDir, {
       fileExtensions: ['ts', 'tsx', 'js', 'jsx'],
       // Provide a stable tsconfig path that actually exists
-      tsConfig: (tsConfigPath && fs.existsSync(tsConfigPath))
+      tsConfig: tsConfigPath && fs.existsSync(tsConfigPath)
         ? tsConfigPath
         : path.resolve(__dirname, '..', 'tsconfig.json'),
       detectiveOptions: { ts: { skipTypeImports: true } } as any,
@@ -198,6 +326,18 @@ export async function runIndexer(rootDir: string, outDir: string, sqlitePath?: s
   // Debug: dump edges
   try { fs.writeFileSync(path.join(outDir, 'edges.json'), JSON.stringify(edges, null, 2), 'utf8'); } catch {}
   if (sqlitePath) writeSQLite(sqlitePath, fileMetas, edges);
+
+  if (resolvedOptions.annConfig) {
+    try {
+      const ann = new AnnStoreAdapter(resolvedOptions.annConfig);
+      await ann.upsert(semanticEntries.map(entry => ({ ...entry, vector: buildTextEmbedding(entry.text) })));
+    } catch (err) {
+      // Do not block indexing if ANN persistence fails
+      try { fs.writeFileSync(path.join(outDir, 'ann_store_error.log'), String(err)); } catch {}
+    }
+  }
+
+  return { files: fileMetas, semanticEntries, edges };
 }
 
 if (require.main === module) {
